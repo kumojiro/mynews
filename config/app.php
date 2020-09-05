@@ -227,5 +227,12 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
     ],
+    
 
+];
+
+return [
+    // ...
+    'log' => env('LOG_OUTPUT', 'errorlog'),
+    // ...
 ];
